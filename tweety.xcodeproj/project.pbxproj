@@ -16,6 +16,8 @@
 		26F24F9B1DC7B85E00A53D25 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F24F9A1DC7B85E00A53D25 /* Tweet.swift */; };
 		26F24F9D1DC7D71200A53D25 /* twitterClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F24F9C1DC7D71200A53D25 /* twitterClient.swift */; };
 		26F24F9F1DC7EC0700A53D25 /* TweetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F24F9E1DC7EC0700A53D25 /* TweetsViewController.swift */; };
+		26F24FA11DC8338800A53D25 /* TweetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F24FA01DC8338800A53D25 /* TweetCell.swift */; };
+		26F24FA31DC8538200A53D25 /* postStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F24FA21DC8538200A53D25 /* postStatusViewController.swift */; };
 		73FA8DF8652D50CDFAA7AF26 /* Pods_tweety.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CADD1D12F2CB6957FFDC174 /* Pods_tweety.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +35,8 @@
 		26F24F9A1DC7B85E00A53D25 /* Tweet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
 		26F24F9C1DC7D71200A53D25 /* twitterClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = twitterClient.swift; sourceTree = "<group>"; };
 		26F24F9E1DC7EC0700A53D25 /* TweetsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetsViewController.swift; sourceTree = "<group>"; };
+		26F24FA01DC8338800A53D25 /* TweetCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetCell.swift; sourceTree = "<group>"; };
+		26F24FA21DC8538200A53D25 /* postStatusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = postStatusViewController.swift; sourceTree = "<group>"; };
 		9CADD1D12F2CB6957FFDC174 /* Pods_tweety.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tweety.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1348EA8D861327AEF8AFDD6 /* Pods-tweety.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tweety.release.xcconfig"; path = "Pods/Target Support Files/Pods-tweety/Pods-tweety.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -96,6 +100,8 @@
 			children = (
 				26F24F931DC6784100A53D25 /* LoginViewController.swift */,
 				26F24F9E1DC7EC0700A53D25 /* TweetsViewController.swift */,
+				26F24FA01DC8338800A53D25 /* TweetCell.swift */,
+				26F24FA21DC8538200A53D25 /* postStatusViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -256,6 +262,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				26F24F9D1DC7D71200A53D25 /* twitterClient.swift in Sources */,
+				26F24FA11DC8338800A53D25 /* TweetCell.swift in Sources */,
+				26F24FA31DC8538200A53D25 /* postStatusViewController.swift in Sources */,
 				26F24F991DC7B84700A53D25 /* User.swift in Sources */,
 				26F24F9F1DC7EC0700A53D25 /* TweetsViewController.swift in Sources */,
 				26F24F9B1DC7B85E00A53D25 /* Tweet.swift in Sources */,
@@ -304,6 +312,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -353,6 +362,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
